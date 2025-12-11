@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nguyen Huynh Viet Thong — Software Engineer</title>
+  <meta name="description" content="Nguyen Huynh Viet Thong — Computer Science BSc. Researcher in Human Activity Recognition. Portfolio: projects, research, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="name-block">
+        <a class="site-title" href="/">Nguyen Huynh Viet Thong</a>
+        <p class="subtitle">BSc Computer Science • ML & Computer Vision • Game Dev (Unity)</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <p>
+        I am a Computer Science graduate (BSc, University of Science, VNUHCM) focused on machine learning,
+        computer vision, and game development. My bachelor’s thesis proposed a single-frame visual–semantic
+        framework for efficient human action recognition in unconstrained videos. I build practical systems
+        that balance accuracy and computational cost.
+      </p>
+      <p class="muted">
+        Email: <a href="mailto:vietthonghuynh@gmail.com">vietthonghuynh@gmail.com</a> •
+        Mobile: +84-968-240-023 •
+        Website: <a href="https://hikki0901.github.io" target="_blank" rel="noopener">hikki0901.github.io</a>
+      </p>
+
+      <p class="actions">
+        <a class="button" href="Software_Engineer_Resume.pdf" download>Download Resume (PDF)</a>
+        <a class="button ghost" href="#projects">View Projects</a>
+      </p>
+    </section>
+
+    <section id="research" class="panel">
+      <h2>Research</h2>
+      <h3>A Single-Frame Visual–Semantic Framework for Efficient HAR</h3>
+      <ul>
+        <li>Designed a single-sample keyframe extraction pipeline to reduce compute while retaining discriminative information.</li>
+        <li>Generated semantic descriptions using Recognize Anything Model (RAM) and encoded multimodal features with CLIP.</li>
+        <li>Implemented weighted multimodal fusion with an internal search to optimize modality weights for SVM classification.</li>
+      </ul>
+      <p class="muted">Tools: Python, PyTorch, OpenCV, CLIP, scikit-learn</p>
+    </section>
+
+    <section id="projects" class="panel">
+      <h2>Selected Projects</h2>
+
+      <article class="project">
+        <h4>Dietarium — Web-Based Diet Tracker</h4>
+        <p>Defined system requirements, planned schedules, coordinated the team, and implemented a maintainable web platform for tracking nutrition and progress.</p>
+        <p class="muted">Skills: requirements analysis, project planning, frontend/backend (replace with specifics)</p>
+      </article>
+
+      <article class="project">
+        <h4>Algorithmic Trading — VN30F1M</h4>
+        <p>Explored a dual-strategy trading algorithm (mean reversion + momentum). Implemented margin handling and transaction cost modeling; evaluated performance using Sharpe ratio and drawdown metrics.</p>
+        <p class="muted">Skills: backtesting, performance metrics, Python</p>
+      </article>
+
+      <article class="project">
+        <h4>C-Dimension — 3D Puzzle Game (Unity)</h4>
+        <p>Designed levels, implemented gameplay mechanics, and integrated physics interactions and UI/UX across multi-scene workflows.</p>
+        <p class="muted">Skills: Unity, C#, level design</p>
+      </article>
+
+      <article class="project">
+        <h4>Wumpus World — AI Pathfinding</h4>
+        <p>Implemented agent logic with search and rule-based reasoning and optimized game state management for smooth real-time behavior.</p>
+        <p class="muted">Skills: algorithms, state management</p>
+      </article>
+
+      <p class="muted small-note">Note: Replace or link to code repos in the project descriptions as you like (GitHub, demo, videos).</p>
+    </section>
+
+    <section id="skills" class="panel">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h5>Programming</h5>
+          <p>Python · C · C++ · C#</p>
+        </div>
+        <div>
+          <h5>Machine Learning</h5>
+          <p>PyTorch · scikit-learn · SVM · CLIP · RAM</p>
+        </div>
+        <div>
+          <h5>Computer Vision</h5>
+          <p>OpenCV · keyframe extraction · multimodal fusion</p>
+        </div>
+        <div>
+          <h5>Game Dev</h5>
+          <p>Unity · gameplay scripting · physics · UI/UX</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p>If you'd like to get in touch, email me at <a href="mailto:vietthonghuynh@gmail.com">vietthonghuynh@gmail.com</a> or connect via GitHub.</p>
+
+      <p class="social">
+        <a href="https://github.com/hikki0901" target="_blank" rel="noopener">GitHub</a>
+        <!-- add LinkedIn / Twitter if applicable -->
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nguyen Huynh Viet Thong — Built with a minimal, ATS-friendly design.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
